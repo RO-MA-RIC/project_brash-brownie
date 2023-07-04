@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Lie-to-me";
+    src: url(/assets/fonts/Lie\ to\ Me\ -\ TTF.ttf);
+}
+
+:root {
+    --font1: Monserrat, sans-serif;
+    --font2: Lie-to-me, sans-serif;
+    --font3: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --color1: rgb(192,192,191);
+    --color2: rgb(255,255,255);
+    --color3: rgb(243,195,49);
+    --color4: rgb(251,139,36);
+    --color5: rgb(20,20,20);
+    --color6: rgb(170,170,170);
+    --color7: rgb(249,170,73);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a, a:visited {
+    color: var(--color2);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: var(--color1);
+}
+
+header {
+    background: url(/assets/img/BG-header.jpg) center/cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 350px;
+    font-family: var(--font1);
+    text-transform: uppercase;
+}
+.title-1 {
+    color: var(--color2);
+    font-family: var(--font3);
+    font-weight: 400;
+}
+.title-2 {
+    color: var(--color3);
+    font-family: var(--font2);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content h1 {
+    font-family: var(--font1);
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color1);
+}
+
+.lie-to-me {
+    font-family: var(--font2);
+    text-transform: capitalize;
+    font-weight: 300;
+    color: var(--color2);
+    font-size: 3rem;
+    margin-bottom: 200px;
+}
+.header-content p {
+    font-family: var(--font1);
+    color: var(--color2);
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+.lie-to-2 {
+    font-family: var(--font2);
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--color3);
+}
+.btn {
+    font-family: var(--font1);
+    font-weight: 700;
+    background: none;
+    border: 2px solid var(--color4);
+    border-radius: 50px;
+    color: var(--color2);
+    height: 50px;
+    width: 150px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: inter-bold, sans-serif;
+    letter-spacing: 2px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .btn:hover {
+    background: rgba(36, 36, 36, 0.404);
+  }
+
+
